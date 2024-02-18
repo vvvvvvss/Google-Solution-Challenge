@@ -149,3 +149,40 @@ position: relative;
     background-color:#d0e4e6;
    
 }
+/*--------------your profile page----------*/
+.sub-header{
+height: 10vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+background-position: center;
+background-size: cover;
+text-align: center;
+color: #fff;
+}
+.your-profile h1{
+    width: 40%;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.your-profile h2{
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.your-profile{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+}
+.procol{
+    flex-basis: 48%;
+    padding: 30px 2px;
+    text-align: center;
+    
+}
+
