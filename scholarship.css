@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 15vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 150px;
+}
+.nav-links {
+    flex :1;
+    text-align: right;
+
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background : #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+@media(max-width: 700px)
+{
+    .text-box h1 {
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;}
+    .nav-links{
+        position: absolute;
+        background: #000;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align:left;
+        z-index: 2;
+    }
+    
+}
+
+
+
+/* scholarship section */
+
+.card {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(225, 225, 225, 0.9); 
+    text-decoration-color: white;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  h2 {
+    color: #d56f3e;
+  }
+  
+  span {
+    color: #9d6f24;
+  }
+  
+  h4 {
+    text-align: right;
+    color: #3c787e;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+
