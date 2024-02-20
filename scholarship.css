@@ -3,7 +3,7 @@
     padding: 0;
 }
 .header{
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(types-of-scholarship-for-students.jpg);
     background-position: center;
@@ -51,55 +51,6 @@ position: relative;
 .nav-links ul li:hover::after{
     width: 100%;
 }
-.text-box{
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-.text-box h1 {
-    font-size: 70px;
-}
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 20px;
-    color: #fff;
-}
-.hero1
-{   display: inline-block; 
-   text-decoration: none;
-   color: #fff;
-   border: 1px solid #fff;
-   padding: 12px 34px;
-   font-size: 25px;
-   background: transparent;
-   position: relative;
-   cursor: pointer;
-}
-.hero1:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
-    transition: 1s;
-}
-.hero2 {
-    display: inline-block; 
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 25px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
- }
- .hero2:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
-    transition: 1s;
-}
 
 @media(max-width: 700px)
 {
@@ -120,35 +71,7 @@ position: relative;
     }
     
 }
-.course h1{
-    color: #000;
-    background:transparent;
-    text-decoration: none;
-    font-size: 40px;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-}
-.team {
-    display:flex; 
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 25px;
-    background:transparent;
-    left: 35%;
-    margin-top: 5%;
-    justify-content: space-between;
- }
- 
-.members{
-    display:display;
-    color: #000;
-    border: 1px solid #d0e4e6;
-    background-color:#d0e4e6;
-   
-}
+
 
 
 /* scholarship section */
@@ -179,7 +102,7 @@ position: relative;
     color: #3c787e;
   }
   
-  #card-container {
+  .main-content {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
