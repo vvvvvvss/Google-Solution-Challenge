@@ -206,36 +206,3 @@ color: #fff;
 }
 
 /*scholarship page*/
-.scholarship h1{
-    height: 10vh;
-    width: 100%;
-    font-size: 70px;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
-.scholarship h2{
-    font-size: 35px;  
-    text-align: left;
-    margin-top: auto;
-}
-.col1{
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    float: left;
-    width: 50%;
-    top: 20%;
-
-}
-.col2 li {
-    font-size: 35px;
-    font-style: italic;
-    text-align: left;
-    text-decoration: double;
-    float: right;
-  width: 50%;
-  color: #000;
-  align-items:inherit ;
-}
