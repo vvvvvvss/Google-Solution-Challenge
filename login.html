@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your New Website</title>
+    <title>Log in</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -136,21 +136,9 @@
         <!-- No Website Name Section -->
     </header>
 
-    <aside>
-        <a href="#" class="sidebar-link"></a>
-        <a href="#" class="sidebar-link"></a>
-        <a href="#" class="sidebar-link"></a>
-        <a href="#" class="sidebar-link">Explore</a>
-        <a href="#" class="sidebar-link">Learn</a>
-        <a href="#" class="sidebar-link">Discover</a>
-        <a href="#" class="sidebar-link">Connect</a>
-        <a href="#" class="sidebar-link">Contact</a>
-    </aside>
+    
 
     <section>
-        <div class="toggle-button-container">
-            <button class="toggle-button" onclick="toggleSidebar()">☰ Menu</button>
-        </div>
 
         <div class="main-content">
             <h1>Welcome to Your New Learning Experience</h1>
@@ -164,7 +152,7 @@
             <form action="your-server-side-login-script.php" method="post">
                 <input type="text" name="username" placeholder="Username" required>
                 <input type="password" name="password" placeholder="Password" required>
-                <button type="submit" class="login-button"><a href="display.html"> Login</a></button>
+                <a href="display.html" class="login-button"> Login</a>
                 
             </form>
         </div>
@@ -174,12 +162,7 @@
         &copy; 2024 ScholarSync. All rights reserved.
     </footer>
 
-    <script>
-        function toggleSidebar() {
-            var sidebar = document.querySelector('aside');
-            sidebar.style.width = sidebar.style.width === '200px' ? '0' : '200px';
-        }
-    </script>
+   
 
 </body>
 </html>
