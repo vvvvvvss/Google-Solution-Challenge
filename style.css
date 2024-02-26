@@ -20,6 +20,7 @@ nav{
 }
 nav img{
     width: 150px;
+    border-radius: 10px;
 }
 .nav-links {
     flex :1;
@@ -122,6 +123,7 @@ position: relative;
 }
 nav img{
     width: 150px;
+    border-radius: 10px;
 }
 .footer h4{
     color: #000;
@@ -224,6 +226,7 @@ nav{
 }
 nav img{
     width: 150px;
+    border-radius: 10px;
 }
 .nav-links {
     flex :1;
@@ -260,12 +263,14 @@ position: relative;
     font-style: oblique;
     text-align: left;
     margin-top: 15%;
+    text-align: center;
 }
 .course h3 {
-    display:display; 
+    display:display;  
     text-decoration: none;
     font-size: 25px;
     background:transparent;
+    text-align: center;
  }
  
 .course p {
@@ -274,7 +279,12 @@ position: relative;
     font-size: 25px;
     left: 40%;
     font-style: normal;
+    text-align: center;
 
+}
+
+.course{
+    margin-bottom: 30px;
 }
 .footer{
     color: #000;
